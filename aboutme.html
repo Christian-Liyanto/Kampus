@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Me</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="home.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="popup" id="popup-1">
+            <div class="overlay"></div>
+            <div class="content" style="width: 80%;">
+                <div class="close-btn" onclick="togglepopup()">&times;</div>
+                <h1 style="font-size: 24px;">My Resource</h1>
+                <p style="font-size: 16px;">
+                    w3schools.com<br>
+                    youtube.com<br>
+                    stackoverflow.com<br>
+                </p>
+                <footer>Made By : Christian Liyanto</footer>
+            </div>
+        </div>
+
+        <div class="center">
+            <img class="photo" src="Foto.jpg" width="200" height="200">
+            <div class="info">
+                <h2>Christian Liyanto</h2>
+                <table class="biodata">
+                    <td>33739</td>
+                    <td>PTI-FL</td>
+                </table>
+                <br><img onclick="insta()" class="logo" src="Logo.png" width="40" height="40"><br>
+                <div>
+                    <button class="abtme" onclick="togglepopup()">My Resource</button>
+                    <button class="abtme" onclick="home()">Back to Home</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script type="text/javascript" src="about.js"></script>
